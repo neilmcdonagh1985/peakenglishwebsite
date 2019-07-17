@@ -36,6 +36,18 @@ header img {
   position: relative;
 }
 
+.large-text {
+  position: absolute;
+  color: #343a40;
+  margin-top: 56px;
+  font-size: 55px;
+  font-weight: bold;
+  opacity: 0.3;
+  font-family: helvetica;
+  transform: scaleY(1.7);
+  top: 0;
+}
+
 .hero-message {
   min-width: 100%;
   min-height: 18em;
@@ -46,13 +58,15 @@ header img {
 
 .hero-message p {
   padding: 20px;
+  font-size: 20px;
+  font-family: helvetica;
 }
 
 .flex-center {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  display: flex;
 }
 
 .hero-message::before {
@@ -64,6 +78,7 @@ header img {
   min-height: 18em;
   background-color: #343a40;
   position: absolute;
+  bottom: 50px;
 }
 
 .background::before {
