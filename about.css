@@ -47,8 +47,9 @@ button {
   color: RoyalBlue;
 }
 
-#about:hover {
-  background-color: #808080;
+#about {
+  background-color: RoyalBlue;
+  color: #FFD700;
 }
 
 #courses:hover {
@@ -81,27 +82,13 @@ button {
   border-bottom: solid 15px #FFD700;
 }
 
-.large-text {
-  position: absolute;
-  color: #343a40;
-  margin-top: 54px;
-  margin-bottom: 20px;
-  font-size: 55px;
-  font-weight: bold;
-  opacity: 0.3;
-  font-family: helvetica;
-  transform: scaleY(1.7);
-  top: 0;
-  width: 100%;
-}
-
 .hero-message {
   min-width: 100%;
-  min-height: 18em;
+  min-height: 22em;
   color: #FFFFFF;
   position: relative;
   display: flex;
-  text-align: center;
+  text-align: left;
 }
 
 .hero-message p {
@@ -133,7 +120,7 @@ button {
 }
 
 .background::before {
-  background-image: url(images/pairwork.jpg);
+  background-image: url(images/laughing.jpg);
   background-size: cover;
   content: "";
   opacity: 0.3;
@@ -146,7 +133,7 @@ button {
   margin: 0px;
 }
 
-.testimonials {
+/*.testimonials {
   display: flex;
   text-align: center;
   width: 100%;
@@ -159,6 +146,47 @@ button {
   font-family: helvetica;
   text-align: center;
   justify-content: center;
+} */
+
+.middle {
+  width: 100%;
+  display: inline-flex;
+  border-bottom: solid 5px #FFD700;
+  background-color: lightgrey;
+}
+
+.form {
+  width: 35%;
+  margin: 30px;
+  font-family: helvetica;
+}
+
+#submit {
+  border: none;
+  background-color: #008080;
+  width: 75px;
+  height: 45px;
+  font-size: 15px;
+}
+
+#submit:hover {
+  border: none;
+  background: white;
+}
+
+#FAQs {
+  margin: 30px;
+  width: 65%;
+  font-family: helvetica;
+}
+
+#FAQs h4 {
+  color: RoyalBlue;
+}
+
+#FAQs p {
+  font-family: courier;
+  color: #FFFFFF
 }
 
 footer {
@@ -167,6 +195,7 @@ footer {
   display: flex;
   position: relative;
   margin: 0;
+  justify-content: center;
 }
 
 footer div {
